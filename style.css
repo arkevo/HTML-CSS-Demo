@@ -58,6 +58,11 @@ header {
   border-color: rgb(138, 138, 138);
 }
 
+#backgroundimg-portfolio {
+  width: 1885px;
+  height: 800px;
+}
+
 #backgroundimg {
   width: 1902px;
   height: 700px;
@@ -67,8 +72,17 @@ header {
   color: rgb(112, 112, 112);
   margin-bottom: 6px;
   padding: 0px;
+  
 
 }
+
+.input {
+  width: 100%;
+}
+ .message-input {
+   height: 150px;
+   width: 100%
+ }
 
 .messageinput {
   width: 100%;
@@ -87,6 +101,19 @@ header {
   border-style: solid;
 }
 
+#mainsection-portfolio {
+  position: absolute;
+  top: 100px;
+  background: #ffffff;
+  width: 960px;
+  height: 78%;
+  right: 420px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
+
 #aboutme {
   position: absolute;
   left: 30px;
@@ -97,7 +124,29 @@ header {
 #secondsection {
   margin: 70px 30px 50px 30px;
   width: 900px;
-  height: 300px;
+  height: 500px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#secondsection-contact {
+  margin: 70px 30px 50px 30px;
+  width: 900px;
+  height: 600px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#secondsection-portfolio {
+  margin: 70px 30px 50px 30px;
+  width: 900px;
+  height: 1500px;
   overflow: auto;
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
@@ -127,6 +176,86 @@ header {
   overflow: auto;
 }
 
+.messagebox {
+width: 200px;
+height: 200px;
+text-align: top;
+}
+
+
+#hangman-image {
+  margin-top: 20px;
+  width: 160px;
+  position:relative;
+  float:left;
+}
+
+#rpggame-image {
+  margin-top: 20px;
+  width: 163px;
+  position:relative;
+  float:left;
+  margin-left: 50px;
+}
+
+#trivia-image {
+  margin-top: 30px;
+  width: 163px;
+  position:relative;
+  clear:both;
+  float:left;
+}
+
+.rpgtxt {
+  position: absolute;
+  top: 197px;
+  left: 241px;
+  width: 160px;
+  height: 35px;
+  font-size: 14;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.hangmantxt {
+  position: absolute;
+  top: 199px;
+  left: 31px;
+  width: 159px;
+  height: 35px;
+  font-size: 14;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+
+}
+
+.triviatxt {
+  position: absolute;
+  top: 392px;
+  left: 31px;
+  width: 160px;
+  height: 35px;
+  font-size: 14;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.contactbutton {
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  font-size: 14;
+  text-align: center;
+  line-height: 3px;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+}
 footer {
   border-style: solid;
   border-width: 5px 0px 0px 0px;
