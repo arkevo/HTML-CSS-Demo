@@ -186,6 +186,7 @@ text-align: top;
 #hangman-image {
   margin-top: 20px;
   width: 160px;
+  height: 160px;
   position:relative;
   float:left;
 }
@@ -193,6 +194,7 @@ text-align: top;
 #rpggame-image {
   margin-top: 20px;
   width: 163px;
+  height: 160px;
   position:relative;
   float:left;
   margin-left: 50px;
@@ -201,9 +203,30 @@ text-align: top;
 #trivia-image {
   margin-top: 30px;
   width: 163px;
+  height: 165px;
   position:relative;
   clear:both;
   float:left;
+  
+}
+
+#rutgers-image {
+  margin-top: 30px;
+  width: 163px;
+  height: 158px;
+  position:relative;
+  float:left;
+  margin-left: 45px;
+}
+
+#rock-image {
+  margin-top: 30px;
+  width: 163px;
+  height: 158px;
+  position:relative;
+  clear:both;
+  float:left;
+  margin-left: 5px;
 }
 
 .rpgtxt {
@@ -212,7 +235,7 @@ text-align: top;
   left: 241px;
   width: 160px;
   height: 35px;
-  font-size: 14;
+  font-size: 14px;
   text-align: center;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
@@ -225,7 +248,7 @@ text-align: top;
   left: 31px;
   width: 159px;
   height: 35px;
-  font-size: 14;
+  font-size: 14px;
   text-align: center;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
@@ -239,7 +262,33 @@ text-align: top;
   left: 31px;
   width: 160px;
   height: 35px;
-  font-size: 14;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rutgerstxt {
+  position: absolute;
+  top: 389px;
+  left: 237px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rock-txt {
+  position: absolute;
+  top: 574px;
+  left: 34px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
   text-align: center;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
